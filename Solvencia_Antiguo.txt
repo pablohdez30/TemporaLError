@@ -1511,7 +1511,7 @@ namespace SLB.ObjRemotos.Comun
             //ServicePointManager.ServerCertificateValidationCallback = (sender, cert, chain, sslPolicyErrors) => true; //--> Movido a nivel de reuest
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12; // Asegura un protocolo seguro
 
-            string url = "https://ts.solvencia.alamoconsulting.com/crr/v0/client-token?client_id=b1763cdc-c800-4f13-8003-c999f643665a&client_secret=d5j8Q~JG5ktUzruAdSCfX32V3Z36ZFDnSInjbcye";
+            string url = "";
             string token = string.Empty;
 
             try
